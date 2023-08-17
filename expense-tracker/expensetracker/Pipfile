@@ -6,6 +6,17 @@ name = "pypi"
 [packages]
 mysqlclient = "*"
 djangorestframework-simplejwt = "*"
+celery = "*"
+djoser = "*"
+redis = "*"
+crontab = "*"
+utils = "*"
+django-heroku = "*"
+pytest = "*"
+pytest-django = "*"
+gunicorn = "*"
+dj-database-url = "*"
+whitenoise = "*"
 
 [dev-packages]
 

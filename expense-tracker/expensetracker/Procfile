@@ -1,0 +1,3 @@
+release: python manage.py migrate
+web: gunicorn expenseproject2.wsgi
+worker: celery -A expenseproject2 worker
